@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    box-sizing: content-box;
+    background-color: #202020;
+    font-family: arial;
+}
+
+#midiv #card{
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+}
+#midiv #card #card-content{
+    text-align: left;
+    color: white;
+    border-radius: 20px;
+    padding: 15px;
+    width: 505px;
+    margin: 15px;
+    height: auto;
+    display: inline-flex;
+    background-color: rgb(41, 41, 41);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.493);
+}
+#midiv #card #card-content #right-content{
+
+    padding: 0 20px;
+}
+#midiv #card #card-content h1{
+    padding: 10px 2px;
+}
+#midiv #card #card-content h4{
+    padding: 5px;
+}
+#midiv #card img{
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.493);
+    opacity: 100%;
+}
+
+  
