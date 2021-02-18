@@ -22,8 +22,14 @@ body{
     margin: 15px;
     height: auto;
     display: inline-flex;
-    background-color: rgb(41, 41, 41);
+    background-color: rgba(0, 0, 0, 0.205);
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.493);
+    transition: 0.2s ease-in-out;
+}
+#midiv #card #card-content:hover{
+    background-color: rgba(168, 168, 168, 0.205);
+    transform: translateY(-5px);
+
 }
 #midiv #card #card-content #right-content{
 
