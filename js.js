@@ -9,7 +9,9 @@ fetch('https://rickandmortyapi.com/api/character')
         
         const midiv = document.getElementById("card")
         midiv.innerHTML='';
+        //recorremos el arreglo de personajes
         for(let item of data.results){
+            //iteramos el contenido de los 20 registros
             midiv.innerHTML += `
                 <div id="card-content">
                     <img src="${item.image}">
