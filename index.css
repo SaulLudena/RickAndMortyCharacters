@@ -29,10 +29,8 @@ body{
 #midiv #card #card-content:hover{
     background-color: rgba(168, 168, 168, 0.205);
     transform: translateY(-5px);
-
 }
 #midiv #card #card-content #right-content{
-
     padding: 0 20px;
 }
 #midiv #card #card-content h1{
@@ -49,23 +47,25 @@ body{
 }
 @media screen and (max-width:149px){
     #midiv #card #card-content{
-        text-align: left;
+        text-align: center;
         color: white;
         border-radius: 20px;
-        padding: 15px;
+        padding: 1px;
         width: 205px;
         margin: 15px;
         height: auto;
-        display: inline-flex;
-        background-color: rgb(41, 41, 41);
-        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.493);
+        display: inline-block;
     }
+
     #midiv #card img{
-        width: 200px;
+        width: 150px;
         border-radius: 20px;
         box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.493);
         opacity: 100%;
     }
+    #midiv #card{
+        padding: 0px;
+        display: inline-block;
+        text-align: center;
+    }
 }
-
-  
